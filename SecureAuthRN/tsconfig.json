@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@domain/*": [
+        "src/domain/*"
+      ],
+      "@data/*": [
+        "src/data/*"
+      ],
+      "@infra/*": [
+        "src/infrastructure/*"
+      ],
+      "@presentation/*": [
+        "src/presentation/*"
+      ]
+    }
+  }
+}
